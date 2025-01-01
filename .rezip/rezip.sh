@@ -1,4 +1,5 @@
 #!/bin/sh
+#set -x
 #usage rezip.sh [-#] [filename]
 
 unset compression

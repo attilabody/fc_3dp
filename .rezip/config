@@ -1,0 +1,3 @@
+[filter "rezip"]
+	clean = ./.rezip/rezip.sh -0
+	smudge = ./.rezip/rezip.sh -9

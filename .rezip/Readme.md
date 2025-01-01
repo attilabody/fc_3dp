@@ -7,7 +7,6 @@ The supplied rezip.zh script unzips a zip archive into the temp folder and rezip
 This repository serves as an example for setting up a git repo to recompress the .FCStd files during commit with 0 compression level, gicing a chance to go git to store the changes more efficiently.
 
 ## Usage
-- Copy the __*rezip.sh*__ script to any folder which is included in the search path.
 - Make sure that zip and unzip commands are available on your system.
 - Append the content of the file __*config*__ to your repository's __*.git/config*__ file.
 - Copy __*.gitattributes*__ to the root of your repository.
